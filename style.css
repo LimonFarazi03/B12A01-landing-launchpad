@@ -14,7 +14,7 @@
   list-style: none;
 }
 nav {
-  background-image: url(/Assets/Hero-bg.png);
+  background-image: url(./Assets/Hero-bg.png);
 }
 .nav-logo {
   font-weight: 900;
