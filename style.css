@@ -137,9 +137,7 @@ nav {
 .client-review-section {
   margin: 116px 0px;
 }
-.client-review-head {
-  margin: 0px 0px 116px 0px;
-}
+
 .raring-wraper {
   display: flex;
   justify-content: center;
@@ -165,4 +163,74 @@ nav {
 .rating-box h3 {
   margin: 6px 0px;
   font-weight: bold;
+}
+.get-in-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px 0px;
+    background-color: #F5F8FF;
+    padding: 50px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 320px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 10px;
+    color: #111;
+    margin-bottom: 6px;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #dfe3ec;
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px 14px;
+    font-size: 10px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+input {
+    height: 36px;
+}
+
+textarea {
+    height: 68px;
+    resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4d46ff;
+}
+
+button {
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4d46ff;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3f38e8;
 }
