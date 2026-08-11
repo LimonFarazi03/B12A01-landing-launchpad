@@ -93,3 +93,14 @@ nav{
 .productive-users-info div{
     margin: 0px 40px;
 }
+.focus-banner-section {
+  text-align: center;
+  margin: 90px 0px;
+}
+.focus-banner-img {
+  border-radius: 48px;
+  margin-top: 25px;
+}
+.focus-banner-desc {
+  margin: 15px 0px;
+}
